@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<!--begin::Head-->
+	<head><base href=""/>
+		<title>MEDICOUNT MANAGEMENT,INC.</title>
+		<meta charset="utf-8" />
+		<meta name="keywords" content="MEDICOUNT MANAGEMENT,INC">
+	<meta name="description" content="MEDICOUNT MANAGEMENT,INC">
+   	<meta property="og:site_name" content="MEDICOUNT MANAGEMENT,INC">
+   	<meta property="og:url" content="">
+   	<meta property="og:type" content="MEDICOUNT MANAGEMENT,INC">
+   	<meta property="og:title" content="MEDICOUNT MANAGEMENT,INC">	
+	<meta name='og:image' content='images/assets/ogg.png'>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- <link rel="shortcut icon" href="assets/media/logos/favicon.ico" /> -->
+		<!--begin::Fonts(mandatory for all pages)-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
+		<!--end::Fonts-->
+		<!--begin::Vendor Stylesheets(used for this page only)-->
+		<link href="assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
+		<!--end::Vendor Stylesheets-->
+		<!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
+		<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+		<!--end::Global Stylesheets Bundle-->
+		<script>// Frame-busting to prevent site from being loaded within a frame without permission (click-jacking) if (window.top != window.self) { window.top.location.replace(window.self.location.href); }</script>
+	
+		<style>
+			.scrolling-text {
+				width: 100%;
+				overflow: hidden;
+				white-space: nowrap;
+				box-sizing: border-box;
+			}
+			
+			.scrolling-text p {
+				display: inline-block;
+				padding-left: 100%;
+				animation: scrolling-text 15s linear infinite;
+			}
+			
+			@keyframes scrolling-text {
+				0% { transform: translateX(100%); }
+				10% { transform: translateX(90%); }
+				100% { transform: translateX(-100%); }
+			}
+
+			.menu-item {
+        transition: background-color 0.3s ease;
+    }
+
+    .menu-item:hover {
+        background-color: #dbe441; /* dbe441 0f958f 95d60a 33d5ac 62cbca 00aeab Change this to the desired hover background color */
+        color: #000; /* Change this to the desired text color */
+    }
+
+    .menu-item.active {
+        background-color: #95d60a; /* Change this to the desired active background color */
+        color: #000; /* Change this to the desired text color */
+    }
+	.menu-item1:hover {
+        background-color: #fff; /* dbe441 0f958f 95d60a 33d5ac 62cbca 00aeab Change this to the desired hover background color */
+        color: #000; /* Change this to the desired text color */
+    }
+   
+
+    .menu-link a {
+        display: block;
+        padding: 10px 20px;
+        color: #000; /* Change this to the desired text color */
+        text-decoration: none;
+    }
+
+    .menu-link a:hover {
+        color: #000; /* Change this to the desired hover text color */
+    }
+			</style>
+	</head>
+	<!--end::Head-->
+	<!--begin::Body-->
+	<body id="kt_body" class="app-blank bgi-size-cover bgi-attachment-fixed bgi-position-center bgi-no-repeat">
+		
+        <!--begin::Root-->
+		<div class="d-flex flex-column "  id="kt_app_root">
+           
+
+
+            <div class="d-flex flex-column flex-center flex-column-fluid">
+				<!--begin::Content-->
+				<div class="d-flex flex-column flex-center text-center">
+					<!--begin::Wrapper-->
+					<div class="card card-flush w-lg-650px w-400px border-0 ">
+						<div class="card-body py-15 py-lg-20">
+							<!--begin::Logo-->
+							<div class="mb-14">
+								<a href="../../demo40/dist/index.html" class="">
+									<img alt="Logo" src="assets/media/medicount-icons/MedicountCPLogo.png" class="h-70px h-lg-100px theme-light-show">
+								</a>
+							</div>
+							<!--end::Logo-->
+
+                            <!--begin::Form-->
+							<form class="form w-100 w-lg-100" action="index.html">
+								<!--begin::Heading-->
+								<div class="text-center mb-11">
+									<!--begin::Title-->
+									<h1 class="text-dark fw-bolder mb-3">Sign In</h1>
+									<!--end::Title-->
+									
+								</div>
+								<!--begin::Heading-->
+							
+								<!--begin::Separator-->
+								<div class="separator separator-content my-14">
+									<span class="w-125px text-gray-500 fw-semibold fs-7">with username</span>
+								</div>
+								<!--end::Separator-->
+								<!--begin::Input group=-->
+								<div class="fv-row mb-8">
+									<!--begin::Email-->
+									<input type="text" placeholder="username" name="email" autocomplete="off" class="form-control bg-transparent" />
+									<!--end::Email-->
+								</div>
+								<!--end::Input group=-->
+								<div class="fv-row mb-3">
+									<!--begin::Password-->
+									<input type="password" placeholder="Password" name="password" autocomplete="off" class="form-control bg-transparent" />
+									<!--end::Password-->
+								</div>
+								<!--end::Input group=-->
+								<!--begin::Wrapper-->
+								<div class="d-flex flex-stack flex-wrap gap-3 fs-base fw-semibold mb-8">
+									<div></div>
+									<!--begin::Link-->
+									<a href="" class="link-primary">Forgot Password ?</a>
+									<!--end::Link-->
+								</div>
+								<!--end::Wrapper-->
+								<!--begin::Submit button-->
+								<div class="d-grid mb-10">
+									<button type="submit" id="kt_sign_in_submit" class="btn btn-success">
+										<!--begin::Indicator label-->
+										<span href="index.html" class="indicator-label ">Sign In</span>
+										<!--end::Indicator label-->
+										<!--begin::Indicator progress-->
+										<span class="indicator-progress">Please wait...
+										<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+										<!--end::Indicator progress-->
+									</button>
+								</div>
+								<!--end::Submit button-->
+							
+							</form>
+							<!--end::Form-->
+						
+						</div>
+					</div>
+					<!--end::Wrapper-->
+				</div>
+				<!--end::Content-->
+			</div>
+
+			
+		</div>
+		<!--end::Root-->
+		<!--begin::Javascript-->
+		<script>var hostUrl = "assets/";</script>
+		<!--begin::Global Javascript Bundle(mandatory for all pages)-->
+		<script src="assets/plugins/global/plugins.bundle.js"></script>
+		<script src="assets/js/scripts.bundle.js"></script>
+		<!--end::Global Javascript Bundle-->
+		<!--begin::Custom Javascript(used for this page only)-->
+		<script src="assets/js/custom/authentication/sign-in/general.js"></script>
+		<!--end::Custom Javascript-->
+		<!--end::Javascript-->
+	</body>
+	<!--end::Body-->
+</html>
